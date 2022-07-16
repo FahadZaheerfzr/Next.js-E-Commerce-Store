@@ -93,7 +93,7 @@ function classNames(...classes) {
 export default function Header() {
   const [open, setOpen] = useState(false)
 
-  const handleClick = (event) => {
+  const handleClick = () => {
     setOpen(true)
   }
 

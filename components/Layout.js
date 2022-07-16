@@ -5,7 +5,6 @@ import Hero from './Hero/Hero'
 import Product from './Products/Product'
 import Head from 'next/head';
 
-
 export default function Layout({children}) {
   return (
     <>
@@ -13,17 +12,17 @@ export default function Layout({children}) {
       <title>Fashion Street</title>
     </Head>
 
-    <Header> 
     
-    </Header>
-   
+
+    <Header /> 
+    
     <Hero />
 
     <Product />
     
-
     <Footer />
-    
+
+  
   
     </>
   )
